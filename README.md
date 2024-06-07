@@ -1,4 +1,4 @@
-# Telco Customer Churn Dataset
+# Telco Customer Churn Analysis
 
 <img src="https://ised-isde.canada.ca/site/mobile-plans/sites/default/files/img/2022/1012_04_21_Telecomm_WebButtons_A.jpg" alt="Telco Customer Churn" width="800">
 

@@ -24,7 +24,7 @@ This repository contains analysis and insights derived from the Telco Customer C
 
 `Source:` [Kaggle: Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data)
   
-`Size:` 7,043 Rows, 21 Columns
+`Size:` 7.043 Rows, 21 Columns
 
 ### Key Features (Columns)
 

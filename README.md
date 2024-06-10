@@ -22,7 +22,11 @@ This repository contains analysis and insights derived from the Telco Customer C
 
 ## Dataset 💾
 
-### Key Features
+`Source:` [Kaggle: Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data)
+  
+`Size:` 7,043 Rows, 21 Columns
+
+### Key Features (Columns)
 
 - **`customerid`:** Customer identification number.
 - **`gender`:** Whether the customer is male or female.
@@ -44,5 +48,7 @@ This repository contains analysis and insights derived from the Telco Customer C
 - **`paymentmethod`:** How the customer pays their bill: Bank Withdrawal, Credit Card, Mailed Check.
 - **`monthlycharges`:** Customer’s current total monthly charge for all services.
 - **`totalcharges`:** Customer’s total charges up to the end of the specified quarter.
-- **`churn`:** 1 if the customer left the company (Churn=Yes) and 0 if they remained (Churn=No) based on the last quarter.
 
+**`Target Column`** = **`churn`:** 1 if the customer left the company (Churn=Yes) and 0 if they remained (Churn=No) based on the last quarter.
+
+## Exploratory Data Analysis 🔬

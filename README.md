@@ -2,23 +2,27 @@
 
 <img src="https://ised-isde.canada.ca/site/mobile-plans/sites/default/files/img/2022/1012_04_21_Telecomm_WebButtons_A.jpg" alt="Telco Customer Churn" width="800">
 
-## Introduction
+## Introduction 📋
 
 This repository contains analysis and insights derived from the Telco Customer Churn dataset. The dataset provides valuable information about customer behavior, allowing businesses to predict and mitigate customer churn effectively. By exploring various data points, we aim to identify key factors influencing churn and propose actionable strategies for customer retention.
 
-## Goal & Context
+## Goal & Context 🎯
 
 ### Goal:
-Analyze the `Telco Customer Churn` dataset to gain valuable insights and identify specific business actions to reduce customer churn.
+* Analyze the `Telco Customer Churn` dataset to gain valuable insights and identify specific business actions to reduce customer churn.
 
 ### Context:
-Customer churn refers to when a customer stops using a product or service. It's crucial for companies to understand and evaluate the factors affecting customer retention.
 
-## Problem Statement
+* Customer churn refers to when a customer stops using a product or service. Analyzing customer churn is crucial for businesses, especially now, given that **retaining customers is equally or more valuable than acquiring new ones**, as losing clients is very costly. This shift reflects a more **product-led mindset** in technological businesses.
 
-How can we reduce customer churn through action-oriented analysis?
+### Problem Statement:
 
-## Key Features
+* How can we reduce customer churn through action-oriented analysis?
+
+
+## Dataset 💾
+
+### Key Features
 
 - **`customerid`:** Customer identification number.
 - **`gender`:** Whether the customer is male or female.

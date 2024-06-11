@@ -2,6 +2,8 @@
 
 <img src="https://ised-isde.canada.ca/site/mobile-plans/sites/default/files/img/2022/1012_04_21_Telecomm_WebButtons_A.jpg" alt="Telco Customer Churn" width="800">
 
+## Business data analysis to reduce customer churn through data-driven actions
+
 ## Introduction 📋
 
 This repository contains analysis and insights derived from the Telco Customer Churn dataset. The dataset provides valuable information about customer behavior, allowing businesses to predict and mitigate customer churn effectively. By exploring various data points, we aim to identify key factors influencing churn and propose actionable strategies for customer retention.

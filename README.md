@@ -2,7 +2,7 @@
 
 <img src="https://ised-isde.canada.ca/site/mobile-plans/sites/default/files/img/2022/1012_04_21_Telecomm_WebButtons_A.jpg" alt="Telco Customer Churn" width="800">
 
-## Business data analysis to reduce customer churn through data-driven actions
+## How to reduce customer churn based on data-driven business actions 
 
 ## Introduction 📋
 

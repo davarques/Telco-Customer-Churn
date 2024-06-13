@@ -90,3 +90,21 @@ Analyzing billing features like payment methods, we created a heatmap that shows
 <img src="https://github.com/davarques/Telco-Customer-Churn/assets/160759223/7c13d033-a960-42ac-9768-e74131c6f541" alt="Customer Relationship Groups" width="750">
 
 ---
+
+### Correlation Analysis 🔗
+
+We looked for potential correlations through a heat map and also aimed to identify the key features influencing the target column, churn.
+
+**Heatmap:**
+
+<img src="https://github.com/davarques/Telco-Customer-Churn/assets/160759223/4fdc8fab-b4b0-461b-9ac2-3b182b3173d0" alt="Customer Relationship Groups" width="750">
+
+**Correlations to the Target `churn`:**
+
+<img src="https://github.com/davarques/Telco-Customer-Churn/assets/160759223/44229cda-de2d-48de-9b6a-8e157d1ea4ba" alt="Customer Relationship Groups" width="750">
+
+We can confirm tha the Top correlations to `churn` (customers levaing) are:
+
+* Contract type (∼0.40)
+* Internet service (∼0.32) 
+---

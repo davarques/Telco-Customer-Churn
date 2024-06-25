@@ -106,5 +106,64 @@ We looked for potential correlations through a heat map and also aimed to identi
 We can confirm tha the Top correlations to `churn` (customers levaing) are:
 
 * Contract type (∼0.40)
-* Internet service (∼0.32) 
+* Internet service (∼0.32)
 ---
+**Bivariate Analysis:**
+
+We plotted the key feautres (`Contract type` & `Internet service`) with the hisghet correlation to the target 'churn' 
+
+<img src="https://github.com/davarques/Telco-Customer-Churn/assets/160759223/84a81099-9ec4-4916-82d1-b3160d268200" alt="Customer Relationship Groups" width="500">
+
+---
+
+<img src="https://github.com/davarques/Telco-Customer-Churn/assets/160759223/c3aabd5c-67ac-4a39-896b-5bbded722cd1" alt="Customer Relationship Groups" width="500">
+---
+
+## Machine Learning 🤖
+
+**Settings & Data Overview**
+
+<img src="https://github.com/davarques/Telco-Customer-Churn/assets/160759223/1d4447aa-b7c3-4dbc-9b1b-fc30f23641b1" width="650">
+
+**ML Models tested**
+
+<img src="https://github.com/davarques/Telco-Customer-Churn/assets/160759223/5df42c55-e4e6-4459-8996-22b4db5a197f" width="650">
+
+---
+
+**No Upsampling models confusion matrix results:**
+
+<img src="https://github.com/davarques/Telco-Customer-Churn/assets/160759223/85aef4af-0193-4dbd-bce1-5f6b55894e38" width="720">
+
+Since the 'false positives' were weak (low) we decided to Upsample the data with SMOTE Model. 
+
+---
+
+**Upsampling models confusion matrix results:**
+
+<img src="https://github.com/davarques/Telco-Customer-Churn/assets/160759223/aef8683f-b72c-4a11-9b9f-48c7d8d822e1" width="720">
+
+---
+
+## Key Takeaways 💡
+
+**Data Exploration:**
+
+- Demographics are not key features to understand customer churn.
+- Potential target audience for improvement: single people with no kids/dependents.
+- Customer segmentation highlights the importance of assessing customer churn.
+- More than half of our customers leaving are highly profitable (spending more than average).
+- 57% of customers leaving use electronic check as a payment method (= Room for improvement).
+
+**Correlation:**
+
+- Key features related to customer churn: contract type and internet service type.
+- Contract type has a moderate relationship with churn. Focus on pitching longer-term contracts (two years) which have the lowest churn rate.
+
+**Machine Learning Models:**
+
+- Upsampling is crucial for assessing machine learning models due to significant data imbalance (70/30 split).
+- Random Forest classifier using SMOTE upsampling is the best option for building an accurate model to predict customer churn.
+
+
+
